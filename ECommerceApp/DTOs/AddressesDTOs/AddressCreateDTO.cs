@@ -2,7 +2,7 @@
 
 namespace ECommerceApp.DTOs.AddressesDTOs
 {
-    // DTO for customer address
+    // DTO for creating customer address
     public class AddressCreateDTO
     {
         [Required(ErrorMessage = "CustomerId is required.")]
